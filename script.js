@@ -9,3 +9,7 @@ function multiply(x, y){
 function capitalize(string) {
     return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
 }
+
+function lastLetter(string) {
+    return string.charAt(string.length - 1);
+}
